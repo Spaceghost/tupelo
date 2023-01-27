@@ -1,4 +1,4 @@
-require 'tupelo/version'
+require_relative './lib/tupelo/version'
 
 Gem::Specification.new do |s|
   s.name = "tupelo"
@@ -31,9 +31,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.summary = "Distributed tuplespace"
 
-  s.required_ruby_version = Gem::Requirement.new("~> 2.0")
-  s.add_runtime_dependency 'atdo', '~> 0'
-  s.add_runtime_dependency 'easy-serve', '~> 0'
-  s.add_runtime_dependency 'funl', '~> 0'
-  s.add_runtime_dependency 'object-template', '~> 0'
+  s.required_ruby_version = Gem::Requirement.new(">= 2.0")
+  s.add_runtime_dependency 'atdo'
+  s.add_runtime_dependency 'easy-serve'
+  s.add_runtime_dependency 'funl'
+  s.add_runtime_dependency 'object-template'
 end

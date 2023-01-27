@@ -1,0 +1,7 @@
+source "http://www.rubygems.org"
+
+gemspec
+gem 'object-stream', path: '../object-stream/'
+gem 'pry', require: 'pry'
+gem 'pry-rescue', require: 'pry-rescue'
+gem 'pry-stack_explorer', require: 'pry-stack_explorer'

@@ -1,0 +1,8 @@
+source "http://www.rubygems.org"
+
+gemspec
+gem 'rake'
+gem 'minitest'
+gem 'pry', require: 'pry'
+gem 'pry-rescue', require: 'pry-rescue'
+gem 'pry-stack_explorer', require: 'pry-stack_explorer'

@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    object-stream (0.8)
+      msgpack (~> 1)
+      yajl-ruby (~> 1)
+
+GEM
+  remote: http://www.rubygems.org/
+  specs:
+    minitest (5.17.0)
+    msgpack (1.6.0)
+    rake (13.0.6)
+    yajl-ruby (1.4.3)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  minitest
+  object-stream!
+  rake
+
+BUNDLED WITH
+   2.3.26
